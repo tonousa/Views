@@ -15,7 +15,7 @@ namespace Views.Controllers
         {
             ViewData["Message"] = "Hello World";
             ViewData["Time"] = DateTime.Now.ToShortTimeString();
-            return View();
+            return View("DebugData");
         }
 
         public ActionResult List()
